@@ -2,13 +2,13 @@
 $nombre=null;
 $edad=44;
 
-
+//mejor entre parentesis 
 if($nombre==null && $edad==null  ){
     echo "Sin datos";
 }
 
 
-if ($nombre==null && $edad!=null){
+if (($nombre==null) && ($edad!=null)){
     echo "Hola desconocido tienes $edad años";
 }
 if($edad==null && $nombre!=null){
