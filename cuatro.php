@@ -2,7 +2,7 @@
 $nombre=null;
 $edad=44;
 
-//mejor entre parentesis 
+
 if($nombre==null && $edad==null  ){
     echo "Sin datos";
 }
